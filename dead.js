@@ -38,3 +38,15 @@ var x_x = function ( victim ) { // Use this function to target html elements (vi
 // Zombies were not created equal:
 var x_X = X_x = X_X = x_ = X_ = _x = _X = x = X = x_x;
 
+if ( typeof module === "object" && module && typeof module.exports === "object" ) {
+    module.exports.x_x = x_x;
+    module.exports.x_X = x_x;
+    module.exports.X_x = x_x;
+    module.exports.X_X = x_x;
+    module.exports.x_ = x_x;
+    module.exports.X_ = x_x;
+    module.exports._x = x_x;
+    module.exports._X = x_x;
+    module.exports.x = x_x;
+    module.exports.X = x_x;
+}
