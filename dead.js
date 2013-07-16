@@ -1,7 +1,8 @@
 /*
  *A javascript framework simple enough even for zombies.
  */
-function x_x ( victim ) { // Use this function to target html elements (victims) by id, class, or tag name.
+
+var x_x = function ( victim ) { // Use this function to target html elements (victims) by id, class, or tag name.
 
         /*create the getelementsbyclassname() method for the document
           for use with x_x() if it doesn't already exist (older browsers).*/
@@ -32,4 +33,8 @@ function x_x ( victim ) { // Use this function to target html elements (victims)
                 return document.getElementsByTagName( victim.substr(1) );
         }
 
-}
+};
+
+// Zombies were not created equal:
+var x_X = X_x = X_X = x_ = X_ = _x = _X = x = X = x_x;
+
